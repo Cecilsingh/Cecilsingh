@@ -2,6 +2,8 @@
 <!--START_SECTION:badges-->
 <!--END_SECTION:badges-->
 
+![](https://komarev.com/ghpvc/?username=Cecilsingh&color=green)
+
 <!--
 **Cecilsingh/Cecilsingh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
