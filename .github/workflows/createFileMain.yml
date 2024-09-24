@@ -1,4 +1,4 @@
-name: create file
+name: create file 
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  createFile2:
+  createFile:
     name: Create A File
     runs-on: ubuntu-latest
     steps:
@@ -21,6 +21,6 @@ jobs:
         with:
           path: '/simpleRHistogram'
           isAbsolutePath: true
-          file: 'test.txt'
+          file: 'test.R'
           content: |
             plot(5:10)
