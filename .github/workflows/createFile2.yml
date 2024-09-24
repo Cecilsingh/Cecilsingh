@@ -14,7 +14,7 @@ jobs:
       - name: Checkout public repo
         uses: actions/checkout@v2
         with:
-          repository: /simpleRHistogram
+          repository: Cecilsingh/simpleRHistogram
           token: ${{ secrets.MY_TOKEN }}
       - name: create file
         uses: 1arp/create-a-file-action@0.4.5
