@@ -13,7 +13,6 @@ jobs:
     steps:
       - uses: 1arp/create-a-file-action@0.4.5
         with:
-          cmd: sudo chown $USER /simpleRHistogram
           path: '/simpleRHistogram'
           isAbsolutePath: true
           file: 'test.txt'
