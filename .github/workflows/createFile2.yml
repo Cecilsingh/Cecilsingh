@@ -6,7 +6,7 @@ on:
     - cron: "*/10 * * * *"
   workflow_dispatch:
 
-  jobs:
+jobs:
   createFile:
     name: Create A File
     runs-on: ubuntu-latest
