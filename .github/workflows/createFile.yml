@@ -10,14 +10,11 @@ jobs:
   createFile:
     name: Create A File
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/labeler@v2
-        with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}      
+    steps:   
       - uses: 1arp/create-a-file-action@0.4.5
         with:
           path: '/simpleRHistogram'
-          isAbsolutePath: true
+          isAbsolutePath: false
           file: 'test.txt'
           content: |
             Hello
