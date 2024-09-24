@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  createFile:
+  createFile2:
     name: Create A File
     runs-on: ubuntu-latest
     steps:
@@ -16,7 +16,7 @@ jobs:
         with:
           repository: Cecilsingh/simpleRHistogram
           token: ${{ secrets.MY_TOKEN }}
-      - name: create file
+      - name: create file2
         uses: 1arp/create-a-file-action@0.4.5
         with:
           path: '/simpleRHistogram'
