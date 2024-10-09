@@ -12,7 +12,7 @@
  
  <div>
    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Cecilsingh&show_icons=true&theme=light" width="450" alt="Cecil's stats" />
-   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Cecilsingh&langs_count=10&show_icons=true&locale=en&layout=compact&theme=light" alt="Cecil's languages" height="300px"  width="400px"/>
+   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Cecilsingh&langs_count=10&show_icons=true&locale=en&layout=compact&theme=light" alt="Cecil's languages" height="300px"  width="300px"/>
 </div>
 
 
